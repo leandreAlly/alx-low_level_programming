@@ -7,8 +7,10 @@
  */
 int main(void)
 {
-	for (int a = 0; a < 10; a++)
-		putchar("%d", a);
+	int a = 0;
+
+	for (; a < 10; a++)
+		putchar('0' + a);
 	putchar('\n');
 	return (0);
 }
