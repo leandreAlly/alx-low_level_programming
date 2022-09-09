@@ -1,20 +1,20 @@
 #include <stdio.h>
 /**
- * main - Entry point
+ * main - entry point
  *
- * Return: always returns 0
+ * Return: alway returns 0
  *
  */
 int main(void)
 {
-
 	char a;
 
-	for (a = 'a'; a <= 'z'; a++)
+	for (a = 'a'; a <= 'z' ; a++)
 	{
-
 		if (a == 'q' || a == 'e')
-		     continue;
+		{
+			continue;
+		}
 		putchar(a);
 	}
 	putchar('\n');
